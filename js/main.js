@@ -5,7 +5,7 @@ require.config({
     }
 })
 
-require(['jquery', 'Window'], function($,w){
+require(['jquery', 'window'], function($,w){
     $('.aa').on('click', function(){
         var myAlert = new w.Window();
         myAlert.alert({
